@@ -14,7 +14,7 @@ import * as FakeTime from "./posts/FakeTime";
 import "./App.css";
 
 const posts = {
-  fakeTime: FakeTime,
+  //fakeTime: FakeTime,
 };
 
 const App = () => {
