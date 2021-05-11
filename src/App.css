@@ -5,7 +5,61 @@
 .homeHeader {
   font-family: "Montserrat", sans-serif;
   font-size: calc(1px + 7vw);
+  text-align: center;
   margin: 0;
+}
+
+.homeSubheader {
+  font-family: "Montserrat", sans-serif;
+  font-size: calc(1px + 2vw);
+  text-align: center;
+  margin: 0;
+  margin-bottom: 1vw;
+}
+
+.homeEmailHeader {
+  font-family: "Inconsolata", monospace;
+  font-size: calc(1px + 1vw);
+  text-align: center;
+  margin: 0;
+  margin-bottom: 9vw;
+}
+
+.homeTopicHeader {
+  font-family: "Montserrat", sans-serif;
+  font-size: calc(1px + 3vw);
+  margin-bottom: 3vw;
+  margin-top: 3vw;
+}
+
+.blogPreview {
+  margin: 1vw;
+  padding: 2vw;
+  border: solid;
+  border-radius: 1px;
+}
+
+.blogPreviewHeader {
+  font-family: "Montserrat", sans-serif;
+  font-size: calc(1px + 2vw);
+  color: black;
+}
+
+.blogPreviewInfo {
+  font-family: "Inconsolata", monospace;
+  font-size: calc(7px + 1vw);
+  margin: 0;
+}
+
+.blogPreviewParagraph {
+  font-family: "Inconsolata", monospace;
+  font-size: calc(7px + 1vw);
+}
+
+.goBack {
+  font-family: "Montserrat", sans-serif;
+  font-size: calc(5px + 1vw);
+  color: black;
 }
 
 .header {
