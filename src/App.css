@@ -1,0 +1,35 @@
+.content {
+  margin: 10%;
+}
+
+.homeHeader {
+  font-family: "Montserrat", sans-serif;
+  font-size: calc(1px + 7vw);
+  margin: 0;
+}
+
+.header {
+  font-family: "Montserrat", sans-serif;
+  font-size: calc(20px + 8vw);
+  margin: 0;
+}
+
+.info {
+  font-family: "Inconsolata", monospace;
+  font-size: calc(7px + 1.5vw);
+  margin: 0;
+}
+
+.paragraph {
+  font-family: "Inconsolata", monospace;
+  font-size: calc(7px + 2vw);
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
