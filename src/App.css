@@ -11,7 +11,7 @@
 
 .homeSubheader {
   font-family: "Montserrat", sans-serif;
-  font-size: calc(1px + 2vw);
+  font-size: calc(1px + 3vw);
   text-align: center;
   margin: 0;
   margin-bottom: 1vw;
@@ -19,7 +19,7 @@
 
 .homeEmailHeader {
   font-family: "Inconsolata", monospace;
-  font-size: calc(1px + 1vw);
+  font-size: calc(1px + 1.5vw);
   text-align: center;
   margin: 0;
   margin-bottom: 9vw;

@@ -69,7 +69,7 @@ const Home = () => {
         Object.keys(posts).map((id) => {
           const Post = posts[id];
           return (
-            <div className="blogPreview">
+            <div className="blogPreview" key={id}>
               <Link className="blogPreviewHeader" to={`/blog/${id}`}>
                 {Post.title}
               </Link>
