@@ -26,6 +26,9 @@ const App = () => {
           <Route path="/blog/:id">
             <BlogPost />
           </Route>
+          <Route path="/about">
+            <About />
+          </Route>
           <Route path="/">
             <Home />
           </Route>
@@ -62,6 +65,10 @@ const Home = () => {
         healthy life and human relationships. As you can probably imagine, this
         blog is about all that.
       </p>
+
+      <Link className="aboutLink" to="/about">
+        Read more...
+      </Link>
 
       <h2 className="homeTopicHeader">Blog</h2>
 
@@ -109,6 +116,64 @@ const BlogPost = () => {
         by Sebastian Wilczek - <i>{Post.date}</i>
       </p>
       <Post.Content />
+    </>
+  );
+};
+
+const About = () => {
+  useEffect(() => {
+    document.title = `About the Author - Sebastian Wilczek, Software Engineer`;
+  }, []);
+
+  return (
+    <>
+      <Link className="goBack" to="/">
+        {"< Go back"}
+      </Link>
+      <h1 className="aboutHeader">About the Author</h1>
+      <div className="aboutSplit">
+        <div className="aboutLeft">
+          <p className="info">
+            My name is Sebastian Wilczek. I am a Software Engineer with a
+            passion for technology, efficiency, software (duh) and healthy life.
+          </p>
+          <p className="info">
+            Consider this blog to be a direct feed of my brainwaves: I'll write
+            about whatever comes to mind at the moment. This might sound random,
+            but knowing myself, there will probably be patterns (at some point).
+          </p>
+          <h2 className="aboutSubheader">Contact</h2>
+          <p className="info">
+            Email: <i>sebastian.wilczek@protonmail.com</i>
+          </p>
+          <h2 className="aboutSubheader">Education</h2>
+          <p className="info">
+            2019 - 2020: <i>M.Sc. Security and Network Engineering</i>
+          </p>
+          <p className="info">
+            2015 - 2019: <i>B.Sc. Software Engineering</i>
+          </p>
+          <h2 className="aboutSubheader">Career</h2>
+          <p className="info">
+            <i>{"2020 - present: Instana Inc. - Software Engineer"}</i>
+          </p>
+          <p className="info">
+            <i>{"2020: Instana Inc. - Internship & Working Student"}</i>
+          </p>
+          <p className="info">
+            <i>
+              {"2017 - 2019: codecentric AG - Internship & Working Student"}
+            </i>
+          </p>
+        </div>
+        <div className="aboutRight">
+          <img
+            src="https://avatars.githubusercontent.com/u/38422130?v=4"
+            alt="Sebastian Wilczek"
+            className="aboutImage"
+          />
+        </div>
+      </div>
     </>
   );
 };

@@ -32,6 +32,12 @@
   margin-top: 3vw;
 }
 
+.aboutLink {
+  font-family: "Inconsolata", monospace;
+  font-size: calc(1px + 2vw);
+  color: black;
+}
+
 .blogPreview {
   margin: 1vw;
   padding: 2vw;
@@ -77,6 +83,57 @@
 .paragraph {
   font-family: "Inconsolata", monospace;
   font-size: calc(7px + 2vw);
+}
+
+.aboutHeader {
+  font-family: "Montserrat", sans-serif;
+  font-size: calc(20px + 6vw);
+  margin: 0;
+}
+
+.aboutSubheader {
+  font-family: "Montserrat", sans-serif;
+  font-size: calc(1px + 3vw);
+  text-align: center;
+}
+
+.aboutSplit {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 900px) {
+  .aboutSplit {
+    flex-direction: column-reverse;
+  }
+}
+
+.aboutLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.aboutRight {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutImage {
+  width: 100%;
+  margin-left: 2vw;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+@media only screen and (max-width: 900px) {
+  .aboutImage {
+    margin-left: 0;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+  }
 }
 
 @keyframes App-logo-spin {
