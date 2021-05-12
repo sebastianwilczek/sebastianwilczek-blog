@@ -9,7 +9,7 @@ import {
   useLocation,
 } from "react-router-dom";
 
-import * as FakeTime from "./posts/FakeTime";
+//import * as FakeTime from "./posts/FakeTime";
 
 import "./App.css";
 
