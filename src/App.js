@@ -10,12 +10,12 @@ import {
 } from "react-router-dom";
 
 import * as FakeTime from "./posts/FakeTime";
-//import * as DeepfakesACycleDownward from "./posts/DeepfakesACycleDownward";
+import * as DeepfakesACycleDownward from "./posts/DeepfakesACycleDownward";
 
 import "./App.css";
 
 const posts = {
-  //deepfakesACycleDownward: DeepfakesACycleDownward,
+  deepfakesACycleDownward: DeepfakesACycleDownward,
   fakeTime: FakeTime,
 };
 
