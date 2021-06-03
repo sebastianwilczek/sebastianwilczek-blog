@@ -11,10 +11,12 @@ import {
 
 import * as FakeTime from "./posts/FakeTime";
 import * as DeepfakesACycleDownward from "./posts/DeepfakesACycleDownward";
+//import * as ProgrammingACarToBeLethal from "./posts/ProgrammingACarToBeLethal";
 
 import "./App.css";
 
 const posts = {
+  //programmingACarToBeLethal: ProgrammingACarToBeLethal,
   deepfakesACycleDownward: DeepfakesACycleDownward,
   fakeTime: FakeTime,
 };
