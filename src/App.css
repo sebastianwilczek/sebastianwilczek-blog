@@ -128,6 +128,17 @@
   filter: grayscale(100%);
 }
 
+.nonBorderedContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.borderedContainer {
+  display: flex;
+  justify-content: center;
+  border: solid;
+}
+
 @media only screen and (max-width: 900px) {
   .aboutImage {
     margin-left: 0;

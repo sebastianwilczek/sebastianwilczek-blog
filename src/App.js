@@ -12,10 +12,12 @@ import {
 import * as FakeTime from "./posts/FakeTime";
 import * as DeepfakesACycleDownward from "./posts/DeepfakesACycleDownward";
 import * as ProgrammingACarToBeLethal from "./posts/ProgrammingACarToBeLethal";
+import * as HackingCalories from "./posts/HackingCalories";
 
 import "./App.css";
 
 const posts = {
+  hackingCalories: HackingCalories,
   programmingACarToBeLethal: ProgrammingACarToBeLethal,
   deepfakesACycleDownward: DeepfakesACycleDownward,
   fakeTime: FakeTime,
